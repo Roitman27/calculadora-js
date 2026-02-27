@@ -7,36 +7,44 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="calculadora">
+        <div class="container">
+            <div class="calculadora">
 
-            <div id="display">0</div>
+                <div id="display">0</div>
 
-                <div class="botoes">
+                    <div class="botoes">
 
-                    <button onclick="limpar()">C</button>
-                    <button onclick="apagar()">←</button>
-                    <button onclick="operacao('/')">/</button>
-                    <button onclick="operacao('*')">*</button>
+                        <button onclick="limpar()">C</button>
+                        <button onclick="apagar()">←</button>
+                        <button onclick="operacao('/')">/</button>
+                        <button onclick="operacao('*')">*</button>
 
-                    <button onclick="adicionarNumero('7')">7</button>
-                    <button onclick="adicionarNumero('8')">8</button>
-                    <button onclick="adicionarNumero('9')">9</button>
-                    <button onclick="operacao('-')">-</button>
+                        <button onclick="adicionarNumero('7')">7</button>
+                        <button onclick="adicionarNumero('8')">8</button>
+                        <button onclick="adicionarNumero('9')">9</button>
+                        <button onclick="operacao('-')">-</button>
 
-                    <button onclick="adicionarNumero('4')">4</button>
-                    <button onclick="adicionarNumero('5')">5</button>
-                    <button onclick="adicionarNumero('6')">6</button>
-                    <button onclick="operacao('+')">+</button>
+                        <button onclick="adicionarNumero('4')">4</button>
+                        <button onclick="adicionarNumero('5')">5</button>
+                        <button onclick="adicionarNumero('6')">6</button>
+                        <button onclick="operacao('+')">+</button>
 
-                    <button onclick="adicionarNumero('1')">1</button>
-                    <button onclick="adicionarNumero('2')">2</button>
-                    <button onclick="adicionarNumero('3')">3</button>
-                    <button onclick="calcular()" class="igual">=</button>
+                        <button onclick="adicionarNumero('1')">1</button>
+                        <button onclick="adicionarNumero('2')">2</button>
+                        <button onclick="adicionarNumero('3')">3</button>
+                        <button onclick="calcular()" class="igual">=</button>
 
-                    <button onclick="adicionarNumero('0')" class="zero">0</button>
-                    <button onclick="adicionarNumero('.')">.</button>
+                        <button onclick="adicionarNumero('0')" class="zero">0</button>
+                        <button onclick="adicionarNumero('.')">.</button>
 
+                    </div>
                 </div>
+
+                <div class="historico">
+                    <h3>Histórico</h3>
+                    <ul id="listaHistorico"></ul>
+                </div>
+
             </div>
         </div>
         

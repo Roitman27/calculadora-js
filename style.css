@@ -1,10 +1,14 @@
 body {
   background: #1e1e1e;
   font-family: Arial;
+  color: white;
+}
+
+.container {
   display: flex;
+  gap: 20px;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  margin-top: 50px;
 }
 
 .calculadora {
@@ -22,7 +26,10 @@ body {
   text-align: right;
   margin-bottom: 10px;
   border-radius: 5px;
-  overflow-x: auto;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .botoes {
@@ -34,11 +41,11 @@ body {
 button {
   padding: 15px;
   font-size: 18px;
+  background: #444;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background: #444;
-  color: white;
 }
 
 button:hover {
@@ -52,4 +59,21 @@ button:hover {
 
 .zero {
   grid-column: span 2;
+}
+
+.historico {
+  background: #2d2d2d;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.historico ul {
+  list-style: none;
+  padding: 0;
+}
+
+.historico li {
+  padding: 5px;
+  border-bottom: 1px solid #444;
 }
