@@ -26,3 +26,16 @@ Este é um projeto de calculadora desenvolvido utilizando HTML, CSS e JavaScript
 Este projeto faz parte do meu processo de retomada aos estudos de desenvolvimento, com foco em reforçar os fundamentos do JavaScript, manipulação do DOM e construção de interfaces interativas.
 
 ## 📂 Estrutura do projeto
+
+calculadora-js/
+index.html
+style.css
+script.js
+
+## ▶️ Como executar
+
+Basta abrir o arquivo `index.html` em qualquer navegador.
+
+---
+
+Desenvolvido para fins de estudo e prática.
