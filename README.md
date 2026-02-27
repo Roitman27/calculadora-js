@@ -27,10 +27,12 @@ Este projeto faz parte do meu processo de retomada aos estudos de desenvolviment
 
 ## 📂 Estrutura do projeto
 
-calculadora-js/
-index.html
-style.css
-script.js
+```bash
+├──calculadora-js/
+│   ├──index.html
+│   ├── style.css
+│   ├── script.js
+```
 
 ## ▶️ Como executar
 
